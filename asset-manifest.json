@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/Coding-spark/static/css/main.31d6cfe0.css",
+    "main.js": "/Coding-spark/static/js/main.97b2bf03.js",
+    "index.html": "/Coding-spark/index.html",
+    "main.97b2bf03.js.map": "/Coding-spark/static/js/main.97b2bf03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.97b2bf03.js"
+  ]
+}
