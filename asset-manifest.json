@@ -1,12 +1,24 @@
 {
   "files": {
-    "main.css": "/Coding-spark/static/css/main.31d6cfe0.css",
-    "main.js": "/Coding-spark/static/js/main.97b2bf03.js",
+    "main.css": "/Coding-spark/static/css/main.1b3e41be.css",
+    "main.js": "/Coding-spark/static/js/main.3feca44c.js",
+    "static/media/blog1.png": "/Coding-spark/static/media/blog1.64323cf91fe9c0963650.png",
+    "static/media/sohit-img.png": "/Coding-spark/static/media/sohit-img.f46fd4b496249403d11e.png",
+    "static/media/aum-img.png": "/Coding-spark/static/media/aum-img.a94652a902eefb47a593.png",
+    "static/media/discount-bg.png": "/Coding-spark/static/media/discount-bg.3ae41c1fcacc8b247b9a.png",
+    "static/media/team-2.jpg": "/Coding-spark/static/media/team-2.2ccf2add63d9423eb868.jpg",
+    "static/media/amit-img.png": "/Coding-spark/static/media/amit-img.9529c8c2f4f731148e86.png",
+    "static/media/landingPage.png": "/Coding-spark/static/media/landingPage.e8bc370c72cd0b15eace.png",
+    "static/media/about.png": "/Coding-spark/static/media/about.2110e4b11351975a2752.png",
+    "static/media/footer-bg.png": "/Coding-spark/static/media/footer-bg.e6fe4753dfca2b6cc785.png",
+    "static/media/c++.png": "/Coding-spark/static/media/c++.f0f1f4c94ed4db2d52fb.png",
+    "static/media/logo.png": "/Coding-spark/static/media/logo.3708f16473a7a6c2fb2b.png",
     "index.html": "/Coding-spark/index.html",
-    "main.97b2bf03.js.map": "/Coding-spark/static/js/main.97b2bf03.js.map"
+    "main.1b3e41be.css.map": "/Coding-spark/static/css/main.1b3e41be.css.map",
+    "main.3feca44c.js.map": "/Coding-spark/static/js/main.3feca44c.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.97b2bf03.js"
+    "static/css/main.1b3e41be.css",
+    "static/js/main.3feca44c.js"
   ]
 }
