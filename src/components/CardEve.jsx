@@ -1,23 +1,21 @@
 import React from "react";
 import CppImg from "../assets/c++.png";
-// import './cardeve.css'
 
-const CardEve = (props) => {
+
+const CardEve = () => {
   return (
-    <>
-      <div className=" flex flex-col evecon -z-1 justify-center items-center p-10 border-[1px]  hover:bg-[#343148] ">
-        <div className=" bg-[#F7CAC9] rounded-full ">
-          <div className="bg-[#F7CAC9]  circle rounded-full p-1 animation-none">
-            <img src={CppImg} className="w-[80px] mx-auto " alt="" />
-          </div>
-        </div>
-        <h1 className="text-xl text-[#343148]">C++ Workshop</h1>
-        <p className="text-center  text-[#7e7e81] hover:text-red">
-          The workshop will introduce you to online training sessions of C++ for
-          beginners.
-        </p>
+    <div className="bg-white p-8 rounded border-[1px] transition duration-300 hover:bg-[#343148] group">
+      <div className="w-[80px] mx-auto bg-[#F7CAC9]  circle rounded-full p-1 animation-none">
+        <img src={CppImg} className="w-[80px] mx-auto " alt="" />
       </div>
-    </>
+      <h3 className="text-xl font-bold m-2 text-center transition duration-300 group-hover:text-[#F7CAC9]">
+        C++ Workshop
+      </h3>
+      <p className="text-[#343148] text-[1.1rem] text-center transition duration-300 group-hover:text-white">
+        The workshop will introduce you to online training sessions of C++ for
+        beginners.
+      </p>
+    </div>
   );
 };
 

@@ -1,16 +1,17 @@
-.foot{
-    background-image: url(../assets//footer-bg.png);
-    background-position: 50%;
-  /* background-size: cover; */
-   background-repeat: no-repeat;
-  background-size: 600px 300px;
-  /* position: relative; */
-     /* background-color: #343148; */
-  /* box-shadow: 4px 4px ; */
+.foot {
+  background-image: url(../assets/footer-bg.png); 
+  background-position: center; /* or 50% */
+  background-repeat: no-repeat;
+  background-size: 600px 300px; /* or 'contain' for responsiveness */
+  /* Other potential styles */
+  /* background-color: #343148; */
+  /* box-shadow: 4px 4px; */
 }
-.con{
-     background-color: hsl(248, 19%, 24%);
-     opacity: 0.9;
-     height: 100%;
-     /* position: absolute; */
+
+.con {
+  background-color: rgba(55, 44, 68, 0.9); /* Using rgba for background opacity */
+  height: 100%;
+
+  /* Other potential styles */
+  /* position: absolute; */
 }

@@ -14,22 +14,25 @@ const BlogPage = () => {
     const [publishedAt ,setPublishedAt] = useState();
     
 
-    // let ranNum = Math.floor(Math.random() * 10);
-    // console.log(ranNum);
+           let ranNum = Math.floor(Math.random() * 10);
+    
+    console.log(ranNum);
     useEffect(() => {
+     
       const getTitle = async () => {
+        
         try {
-          const api = `https://newsapi.org/v2/everything?q=tesla&from=2024-04-25&sortBy=publishedAt&apiKey=dd7a08dc7dbf4da484e488466a91c64a`;
+          const api = `https://newsapi.org/v2/everything?q=tesla&from=2024-04-30&sortBy=publishedAt&apiKey=21c6f85c45a24e07a6bf8d4005da03e0`;
           let response = await fetch(api);
           console.log(response);
           let data = await response.json();
           console.log(data);
-          setTitle(data.articles[0].title);
-          setImgurl(data.articles[0].urlToImage);
-          setAuthor(data.articles[0].author);
-          setDisc(data.articles[0].description);
-          setContent(data.articles[0].content);
-          setPublishedAt(data.articles[0].publishedAt);
+          setTitle(data.articles[ranNum].title);
+          setImgurl(data.articles[ranNum].urlToImage);
+          setAuthor(data.articles[ranNum].author);
+          setDisc(data.articles[ranNum].description);
+          setContent(data.articles[ranNum].content);
+          setPublishedAt(data.articles[ranNum].publishedAt);
           // console.log(data.articles[0].title);
         } catch {
           console.log("Error is found");

@@ -10,10 +10,9 @@ const Discunt = () => {
   return (
     <>
       <section
-        className="w-full  bg-fixed   discount h-[500px] mt-20"
-        data-aos="zoom-in"
-      >
-        <div className="W-[80%] h-[100%]  flex flex-col justify-center items-center">
+        className="w-full  bg-fixed discount  mt-20"
+        data-aos="zoom-in" >
+        <div className="W-[80%]   flex flex-col justify-center items-center">
           <div className="w-[50%]  mx-auto flex flex-col justify-center items-center  gap-4">
             <p className="text-[#343148] text-2xl font-semibold">
               Awesome Discount

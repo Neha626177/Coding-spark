@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../assets/about.png";
 
-const about = () => {
+const About = () => {
   return (
     <>
       <section className="w-full  my-[rem] flex justify-center items-center">
@@ -43,4 +43,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
